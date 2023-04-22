@@ -1,4 +1,4 @@
-# Operating-System
+# Operating-System-Lab
 
 Prerequisite: Knowledge on Operating system principles
 
