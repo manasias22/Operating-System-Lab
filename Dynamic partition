@@ -1,0 +1,37 @@
+Dynamic partition placement
+
+
+#include <stdio.h>
+void main() {
+//variable declaration
+int npart=10;
+int part[10];
+int partsize[10]={45,30,50,20,10,15,25,35,40,55};
+int i,j;
+int flag=0;
+
+//Input
+int process[5]={52,32,10,15,43};
+int nprocesses=5;
+
+//processing
+for(i=0;i<nprocesses;i++){
+    //find the partition
+    for(j=0;j<=npart;j++)
+    //update partition size
+    if(process[i]<=partsize[j])
+    {
+        printf("process %d is allocated to partition %d \n",i,j);
+        flag=1;
+        partsize[j]=partsize[j]-process[i];
+        break;
+    }
+}
+if(flag!=1){
+    printf("No partition found free");
+}
+else
+{
+    flag=0;
+}
+}
