@@ -1,3 +1,7 @@
+AIM: Implement Disk Scheduling Algorithm FCFS, SSTF
+
+CODE:
+
 // C++ program to demonstrate
 // FCFS Disk Scheduling algorithm
 #include <stdio.h>
@@ -39,3 +43,18 @@ int main()
  FCFS(arr,head);
  return 0;
 } 
+
+
+OUTPUT:
+
+Total number of seek operations: 510
+Seek Sequence is
+176
+79
+34
+60
+92
+11
+41
+114
+
