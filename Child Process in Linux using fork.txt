@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+
+int main()
+{
+fork();
+fork();
+fork();
+pid_t p,p1;
+p=getpid();
+p1=getppid();
+printf("using fork() system call the child process id is %d and the parent process id is %d \n",p,p1);
+return 0;
+}
