@@ -1,3 +1,7 @@
+AIM: CREATE A CHILD PROCESS IN LINUX USIING FORK SYSTEM CALL
+
+CODE:
+
 #include<stdio.h>
 #include<sys/types.h>
 #include<unistd.h>
@@ -13,3 +17,8 @@ p1=getppid();
 printf("using fork() system call the child process id is %d and the parent process id is %d \n",p,p1);
 return 0;
 }
+
+OUTPUT:
+file path gcc fork.c -o two(any name)
+file path ./two (enter)
+.......output
