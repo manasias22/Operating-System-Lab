@@ -72,6 +72,10 @@ return 0 ;
 
 OUTPUT:
 
+file path cd manasias
+file path gcc firstfit.c -o shivay
+file path ./shivay
+
 Process No.     Process Size    Block no.
  1                      212                             2
  2                      417                             5
