@@ -1,0 +1,27 @@
+AIM: Explore User Management Commands of LINUX
+
+COMMANDS:
+
+
+cd manas
+sudo useradd mrudul
+sudo tail /etc/group
+sudo userdel saned
+sudo tail /etc/group
+sudo groupadd pune
+sudo tail /etc/group
+whoami
+sudo useradd -g pune akash
+sudo passwd akash
+New password.......
+retype new password........
+sudo userdel gdm
+sudo tail /etc/group
+sudo useradd vipul
+sudo tail /etc/group
+sudo groupdel pune
+sudo userdel akash
+sudo groupdel pune 
+sudo tail /etc/group
+who
+.....................................................
