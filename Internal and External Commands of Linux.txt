@@ -1,0 +1,53 @@
+AIM: Explore Internal and External Commands of Linux
+
+COMMANDS:
+
+pwd
+
+mkdir manas
+
+cd manas
+
+cd\
+
+touch hello.txt
+
+ls
+
+cat>hello.txt
+...hello from mrudul
+
+cat>>hello.txt
+...how are you?
+
+cat hello.txt
+...hello from mrudul
+...how are you?
+
+mv hello.txt hi.txt
+
+ls
+
+grep hello*.txt
+...hi.txt:hello from mrudul
+...how.txt:hello
+
+rm hi.txt
+
+ls
+
+date
+
+time
+
+free
+
+echo
+
+man
+gedit
+ps
+
+cal
+
+wc
