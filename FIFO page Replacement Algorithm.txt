@@ -1,4 +1,8 @@
-#include < stdio.h >
+AIM: Implement page replacement policy FIFO
+
+CODE:
+
+#include <stdio.h>
 int main()
 {
 int incomingStream[] = {4 , 1 , 2 , 4 , 5};
@@ -6,7 +10,7 @@ int pageFaults = 0;
 int frames = 3;
 int m, n, s, pages;
 pages = sizeof(incomingStream)/sizeof(incomingStream[0]);
-printf(" Incoming \ t Frame 1 \ t Frame 2 \ t Frame 3 ");
+printf("Incoming \t Frame 1 \t Frame 2 \t Frame 3");
 int temp[ frames ];
 for(m = 0; m < frames; m++)
 {
@@ -46,3 +50,18 @@ printf(" - \t\t\t");
 printf("\nTotal Page Faults:\t%d\n", pageFaults);
 return 0;
 }
+
+
+
+OUTPUT:
+file path cd manasias
+file path gcc fifo.c -o shivay
+file path ./shivay
+
+Incoming         Frame 1         Frame 2         Frame 3
+4                        4                       -                       - 
+1                        4                       1                       - 
+2                        4                       1                       2
+4                        4                       1                       2
+5                        5                       1                       2
+Total Page Faults:      4
