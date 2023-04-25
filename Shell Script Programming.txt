@@ -1,0 +1,41 @@
+AIM: Write Shell Script Programming
+
+COMMANDS
+
+mkdir manasias
+cd manasias
+gedit/vi          txt.c/vi.sum
+gcc txt.c -o shivay
+./shivay
+  
+
+1] Perform Basic Arithmatic Operation
+
+sum.sh
+
+a=12
+b=6
+sum=$(($a+$b))
+echo "sum is $sum"
+
+OUTPUT:
+
+path ./random.sh  //// ./shivay
+
+2] Display top 10 process in ascending order
+
+top -h -o -%CPU|head -n 22
+
+3] Display processes with highest memory usage
+
+top -h -o +%MEM|head -n 22
+
+4] Display Current login user and log name
+
+echo "The current user is: "$(whoami)
+
+5] Display current shell, Home directoy, kernel version etc
+
+# echo "The current home directory is: $HOME"
+
+# uname -r
