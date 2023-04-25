@@ -1,0 +1,43 @@
+AIM : Explore the System Calls in Linux
+
+CODE:
+
+#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+#include<fcntl.h>
+#include<string.h>
+int main()
+{
+pid_t p,p1,p2;
+p=getpid();
+p1=getppid();
+p2=getuid();
+p2=geteuid();
+p2=getgid();
+int fd,n;
+char buffer[90];
+char message[]="hello world";
+
+n=sizeof(message);
+fd=open("one.txt",O_CREAT|O_RDWR,0777);
+
+printf("file is created");
+write(fd,message,n);
+lseek(fd,0,0);
+read(fd,buffer,n);
+printf("read data %s\n",buffer);
+close(fd);
+
+return 0;
+}
+
+
+
+OUTPUT:
+
+file path gcc exp5.c -o shivay
+file path ./shivay
+file is createdread data hello world
+file path gedit
+*/
