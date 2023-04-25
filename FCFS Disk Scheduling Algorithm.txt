@@ -46,7 +46,9 @@ int main()
 
 
 OUTPUT:
-
+file path cd manasias
+file path gcc fcfs.c -o shivay
+file path ./shivay
 Total number of seek operations: 510
 Seek Sequence is
 176
