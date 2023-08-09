@@ -1,8 +1,8 @@
 # Operating-System-Lab
 
-Prerequisite: Knowledge on Operating system principles
+_Prerequisite: Knowledge on Operating system principles_
 
-Lab Objectives:
+## Lab Objectives:
 
 1 To gain practical experience with designing and implementing concepts of operating
 systems such as system calls, CPU scheduling, process management, memory management,
@@ -14,7 +14,7 @@ file systems and deadlock handling using C language in Linux environment.
 
 4 To learn programmatically to implement simple operation system mechanisms
 
-Lab Outcomes: At the end of the course, the students will be able to
+## Lab Outcomes: At the end of the course, the students will be able to
 
 1 Demonstrate basic Operating system Commands, Shell scripts, System Calls and API wrt
 Linux
